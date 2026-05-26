@@ -17,6 +17,8 @@ brew install zsh zsh-autosuggestions zsh-syntax-highlighting \
   git gh neovim make \
   nvm rust python \
   felixkratz/formulae/borders
+
+brew install --cask raycast
 ```
 
 ## 4. Dotfiles
