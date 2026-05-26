@@ -49,3 +49,29 @@ nvm install --lts
 - Spotify
 - Stats
 - Steam
+
+## 8. Post-Install Notes
+
+**Zsh as default shell** — set brew's zsh as default:
+```bash
+echo $(brew --prefix)/bin/zsh | sudo tee -a /etc/shells
+chsh -s $(brew --prefix)/bin/zsh
+```
+
+**Node before Neovim** — install Node via nvm before launching nvim. LSP servers require `npm` in PATH:
+```bash
+nvm install --lts
+```
+
+**Neovim** — lazy.nvim auto-installs plugins on first launch. Requires `make` and C compiler (Xcode CLI tools covers this).
+
+**Borders** — start as a service after install:
+```bash
+brew services start borders
+```
+
+**AeroSpace** — grant Accessibility permissions in System Settings on first launch.
+
+**LinearMouse** — grant Accessibility and Input Monitoring permissions on first launch.
+
+**nvm** — verify `.zshrc` sources nvm from the correct brew path after install.
