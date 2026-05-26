@@ -1,0 +1,4 @@
+extensions/node_modules/
+extensions/**/*.exe
+extensions/**/*.wasm
+extensions/**/*.js.map

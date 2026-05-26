@@ -111,9 +111,9 @@ export PATH="$HOME/.local/bin:$PATH"
 export EDITOR="nvim"
 export VISUAL="nvim"
 export XDEBUG_SESSION="PHPSTORM"
-source ~/.safe-chain/scripts/init-posix.sh # Safe-chain Zsh initialization script
 export PATH="$PATH:$HOME/.cargo/bin:$PATH"
 
 ### MANAGED BY RANCHER DESKTOP START (DO NOT EDIT)
 export PATH="/Users/viminaria/.rd/bin:$PATH"
 ### MANAGED BY RANCHER DESKTOP END (DO NOT EDIT)
+source ~/.safe-chain/scripts/init-posix.sh # Safe-chain Zsh initialization script
