@@ -18,7 +18,7 @@ brew install zsh zsh-autosuggestions zsh-syntax-highlighting \
   nvm rust python \
   felixkratz/formulae/borders
 
-brew install --cask raycast
+brew install --cask raycast ghostty aerospace
 ```
 
 ## 4. Dotfiles
